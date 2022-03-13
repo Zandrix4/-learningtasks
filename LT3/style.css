@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+
+.navbar{
+    text-align: center;
+    flex: 1;
+}
+
+.navbar a{
+    padding: 6px 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn{
+    cursor: pointer;
+    color: #096b6b;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    border: 2px solid #096b6b;
+    background: transparent;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    margin: 40px 8px;
+}
+
+.btn:hover{
+    color: #000;
+    background-color: #fff;
+}
+.btn a:visited{
+    background-color: #fff;
+    color: #096b6b;
+}
+
+.btn:hover{
+    color: #096b6b;
+}
+
+.btn a:link{
+    text-decoration: none;
+
+}
+
+.content{
+    text-align: center;
+    margin-top: 12%;
+}
+.parent1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.icecream{
+    width: 300px;
+    margin: 50px auto 50px 90px;
+    border-style: dashed groove dashed groove;
+    border-width: 5px;
+    border-color: #90eeee;
+}
+
+.pizza{
+    width: 300px;
+    margin: 50px auto 50px 90px;
+    border-style: dashed groove dashed groove;
+    border-width: 5px;
+    border-color: #90eeee;
+}
+
+.hotdog{
+    width: 300px;
+    margin: 50px auto 50px 90px;
+    border-style: dashed groove dashed groove;
+    border-width: 5px;
+    border-color: #90eeee;
+}
+
+.humburger{
+    width: 300px;
+    margin: 50px auto 50px 90px;
+    border-style: dashed groove dashed groove;
+    border-width: 5px;
+    border-color: #90eeee;
+}
+
+.frenchfries{
+    width: 300px;
+    margin: 50px auto 50px 90px;
+    border-style: dashed groove dashed groove;
+    border-width: 5px;
+    border-color: #90eeee;
+}
+
+.cupnoodle{
+    width: 300px;
+    margin: 50px auto 50px 90px;
+    border-style: dashed groove dashed groove;
+    border-width: 5px;
+    border-color: #90eeee;
+}
+
+.pasta{
+    width: 300px;
+    margin: 50px auto 50px 90px;
+    border-style: dashed groove dashed groove;
+    border-width: 5px;
+    border-color: #90eeee;
+}
+
+.steak{
+    width: 300px;
+    margin: 50px auto 50px 90px;
+    border-style: dashed groove dashed groove;
+    border-width: 5px;
+    border-color: #90eeee;
+}
+
+.friedchicken{
+    width: 300px;
+    margin: 50px auto 50px 90px;
+    border-style: dashed groove dashed groove;
+    border-width: 5px;
+    border-color: #90eeee;
+}
+
+.oyster{
+    width: 300px;
+    margin: 50px auto 50px 90px;
+    border-style: dashed groove dashed groove;
+    border-width: 5px;
+    border-color: #90eeee;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parent1 h2,p{
+    font-style: normal;
+    margin: 20px;
+    padding: 10px;
+}
