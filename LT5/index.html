@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My Computer </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main">
+            <nav>
+                <div class="logo">
+                    <img src="zarla-the-pc-business-1x1-2400x2400-20211026-yfdbf74483yfqvp8xkdk.png">
+                </div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="information">
+                <div class="overlay"></div>
+                <img src="Computer.png" class="computer">
+                <div id="circle">
+                    <div class="feature one">
+                        <img src="1594821.png">
+                        <div>
+                            <h1>Processor</h1>
+                            <p>Ryzen 7 5800x3D</p>
+                        </div>
+                    </div>
+                    <div class="feature two">
+                        <img src="Graphics.png">
+                        <div>
+                            <h1>Video Card</h1>
+                            <p>Radeon RX 6800 XT</p>
+                        </div>
+                    </div>
+                    <div class="feature three">
+                        <img src="motherboard.png">
+                        <div>
+                            <h1>Motherboard</h1>
+                            <p>Gigabyte Z690 Aorus Pro</p>
+                        </div>
+                    </div>
+                    <div class="feature four">
+                        <img src="Ram.png">
+                        <div>
+                            <h1>Ram</h1>
+                            <p>Team xtreem argb 16gb ddr4-3600MHz</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <img src="arrow.png" id="upBtn">
+                <h2>Feature</h2>
+                <img src="arrow.png" id="downBtn">
+            </div>
+
+        </div>
+
+        <script>
+            var circle = document.getElementById("circle");
+            var upBtn = document.getElementById("upBtn");
+            var downBtn = document.getElementById("downBtn");
+
+            var rotateValue = circle.style.transform;
+            var rotateSum;
+
+
+            upBtn.onclick = function()
+            {
+                rotateSum = rotateValue + "rotate(-90deg)";
+                circle.style.transform = rotateSum;
+                rotateValue = rotateSum;
+            }
+            downBtn.onclick = function()
+            {
+                rotateSum = rotateValue + "rotate(90deg)";
+                circle.style.transform = rotateSum;
+                rotateValue = rotateSum;
+            }
+        </script>
+
+    </body>
+</html>
