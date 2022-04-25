@@ -11,6 +11,7 @@
     <li><a href="/LT3/index.html">Learning Task 3</a></li>
     <li><a href="/CLE1MT/index.html">Culminating Learning Evidence</a></li>
     <li><a href="/LT4/index.html">Learning Task 4</a></li>
+    <li><a href="/LT5/index.html">Learning Task 5</a></li>
   </ul>
 </body>
 </html>
